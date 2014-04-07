@@ -232,10 +232,12 @@ for i = 1, 9 do
 	              	end),
         awful.key({ modkey, "Control", "Shift" }, "#" .. i + 9,
                   function ()
-                      local tag = awful.tag.gettags(client.focus.screen)[i]
-                      if client.focus and tag then
-                          awful.client.toggletag(tag)
-                      end
+                  		if client.focus then 
+                      		local tag = awful.tag.gettags(client.focus.screen)[i]
+                      		if tag then
+                          		awful.client.toggletag(tag)
+                      		end
+                      	end
                   end))
 end
 
