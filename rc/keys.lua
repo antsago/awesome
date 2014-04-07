@@ -5,6 +5,7 @@
 -- {{{ Required libraries
 local awful     = require("awful")
 local drop   	= require("scratchdrop")
+local lain		= require("lain")
 -- }}}
 
 -- {{{ Mouse bindings
@@ -76,7 +77,7 @@ globalkeys = awful.util.table.join(
     end),
 
     -- On the fly useless gaps change
-    awful.key({ altkey, "Control" }, "+", function () lain.util.useless_gaps_resize(1) end),
+    awful.key({ altkey, "Control" }, "=", function () lain.util.useless_gaps_resize(1) end),
     awful.key({ altkey, "Control" }, "-", function () lain.util.useless_gaps_resize(-1) end),
 
     -- Layout manipulation
