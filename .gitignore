@@ -1,1 +1,4 @@
-rc.lua
+#stderr and stdout logs
+stderrLog
+stdoutLog
+*~
