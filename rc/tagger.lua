@@ -10,7 +10,7 @@ local lain      = require("lain")
 
 
 -- {{{
-local layouts = {
+layouts = {
     awful.layout.suit.floating,
     lain.layout.uselesstile,
     lain.layout.uselesstile.left,
