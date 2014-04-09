@@ -30,7 +30,6 @@ wp_timeout  = 300 --every 5 minutes
 wp_path = beautiful.wallpaper_dir
 wp_filter = function(s) return string.match(s,"%.png$") or string.match(s,"%.jpg$") end
 wp_files = scandir(wp_path, wp_filter)
-print(#wp_files)
 wp_index = math.random(1, #wp_files)
  
 -- setup the timer

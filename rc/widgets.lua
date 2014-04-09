@@ -4,7 +4,7 @@
 
 
 -- {{{ Required libraries
-local lain      = require("lain")
+local lain      = require("lib/lain")
 local awful     = require("awful")
 local wibox     = require("wibox")
 local beautiful = require("beautiful")

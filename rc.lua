@@ -99,7 +99,7 @@ run('tagger')
 run('wallpaper')
 
 --// Menu
-require("freedesktop/freedesktop")
+require("lib/freedesktop/freedesktop")
 
 --// Set up the widgets
 run('widgets')

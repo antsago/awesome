@@ -4,8 +4,8 @@
 
 -- {{{ Required libraries
 local awful     = require("awful")
-local drop   	= require("scratchdrop")
-local lain		= require("lain")
+local drop   	= require("lib/scratchdrop")
+local lain		= require("lib/lain")
 -- }}}
 
 -- {{{ Mouse bindings

@@ -4,7 +4,7 @@
 
 -- {{{ Required libraries
 local awful     = require("awful")
-local lain      = require("lain")
+local lain      = require("lib/lain")
 -- }}}
 
 
